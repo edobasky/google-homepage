@@ -1,0 +1,98 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+      
+
+body
+{
+    font-family:roboto, sans-serif;
+    margin:0;
+    font-weight:bold;
+}
+
+.nav-div ul
+{
+    display:flex;
+    justify-content:flex-end;
+    margin-right:10px;
+}
+
+.nav-div ul li
+{
+    padding:10px;
+    list-style-type:none;
+    cursor:pointer;
+}
+
+.nav-div ul li button
+{
+    background-color:#4285F4;
+    border:none;
+    text-align:center;
+    color:white;
+    padding:10px 30px;
+    margin-top:-40px;
+    display:inline-block;
+    border-radius :5px;
+    cursor:pointer;
+}
+
+img
+{
+   display:block;
+   margin:auto;
+   padding:100px 200px 0 200px;
+   margin-bottom:20px;
+
+
+}
+
+form
+{
+    text-align:center;
+    background-color:white;
+}
+
+#search-bar 
+{
+    display:block;
+    margin:auto;
+    padding:17px 250px;
+    border-radius:30px;
+}
+
+#search-button 
+{
+    padding:10px;
+    margin:30px 10px;
+}
+#feeling-lucky-button
+{
+    padding:10px;
+}
+
+form p a
+{
+    text-decoration:none;
+    padding:0 3px;
+   
+}
+
+form p
+{
+    margin-top:-2px;
+}
+
+
+.first-foot-div
+{
+    margin-left:100px;
+    background-color:gray;
+}
+
+ ul
+{
+    display:flex;
+    background-color:gray;
+    list-style: none;
+    justify-content:stretch;
+    
+}

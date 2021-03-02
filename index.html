@@ -10,42 +10,54 @@
         <title>Google HomePage</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
         <heaader>
             <nav>
-                <div>
+                <div class="nav-div">
                     <ul>
-                        <li>About</li>
-                        <li>Store</li>
                         <li>Gmail</li>
                         <li>Images</li>
+                        <i class="material-icons" style="font-size:36px; cursor:pointer;">&#xe5c3;</i>
+                        <li><button>Sign in</button></li>
                     </ul>
-                </div>
-                <div>
-                    <a href="#">symbol</a>
-                    <button>Sign in</button>
                 </div>
             </nav>
         </heaader>
 
         <main>
-            <div></div>
-            <div></div>
+            <div class="image-div">
+                <img id="google-image" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+            </div>
+            <div>
+                <form class ="form-contents">
+                    <label for="search-bar">
+                        <input id="search-bar" type="text">
+                    </label>
+
+                    <label for="search-button">
+                        <input id="search-button" type="button" value="Google Search" >
+                    </label>
+                    <label for="feeling-lucky-button">
+                        <input id="feeling-lucky-button" type="button" value="I'm feeling lucky" >
+                    </label>
+
+                    <p>Google offered in: <a href="#">Hausa</a> <a href="#">Igbo</a> <a href="#">Ede</a> <a href="#">Yoruba</a> <a href="#">Nigerian Pidgin</a></p>
+                </form>
+            </div>
         </main>
 
         <footer>
-            <div>
-                <ul>Advertising</ul>
-                <ul>Business</ul>
-                <ul>How Search works</ul>
-            </div>
-            <div>
-                <ul>Privacy</ul>
-                <ul>Terms</ul>
-                <ul>Settings</ul>
-            </div>
+                <ul>
+                <li>Advertising</li>
+                <li>Business</li>
+                <li>How Search works</li>
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Settings</li>
+                </ul>
         </footer>
         
 
