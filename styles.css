@@ -82,17 +82,70 @@ form p
 }
 
 
-.first-foot-div
+.right-foot-div
 {
-    margin-left:100px;
-    background-color:gray;
+    margin-left:-30px;
 }
 
- ul
+/*
+.right-foot-div ul
 {
     display:flex;
-    background-color:gray;
-    list-style: none;
-    justify-content:stretch;
+    justify-content:flex-start;
+    list-style-type: none;
     
+    
+}
+
+.left-foot-div ul
+{
+    display:flex;
+    justify-content:flex-end;
+    list-style-type: none;
+}
+*/
+
+.footer-container
+{
+    display:flex;
+}
+.left-foot-div 
+{
+    width:50%;
+    margin-left: -15px;
+}
+.left-foot-div ul
+{
+    display:flex;
+    list-style-type: none;
+}
+.left-foot-div ul li
+{
+    padding:0 15px;
+}
+
+.right-foot-div 
+{
+    width:50%;
+    margin-left: -5px;
+}
+
+.right-foot-div ul
+{
+    display:flex;
+    justify-content:flex-end;
+    list-style-type: none;
+   
+}
+.right-foot-div ul li
+{
+    padding:0 15px;
+}
+
+.country
+{
+    margin-top: 300px;
+    margin-left:40px;
+    margin-bottom: 0;
+    color:red;
 }
