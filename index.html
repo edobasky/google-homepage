@@ -12,6 +12,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://use.fontawesome.com/2edebd0537.js"></script>
     </head>
     <body>
         <heaader>
@@ -20,7 +21,7 @@
                     <ul>
                         <li>Gmail</li>
                         <li>Images</li>
-                        <i class="material-icons" style="font-size:36px; cursor:pointer;">&#xe5c3;</i>
+                        <i class="material-icons" style="font-size:32px; cursor:pointer;">&#xe5c3;</i>
                         <li><button>Sign in</button></li>
                     </ul>
                 </div>
@@ -34,7 +35,8 @@
             <div>
                 <form class ="form-contents">
                     <label for="search-bar">
-                        <input id="search-bar" type="text">
+                        <input id="search-bar" type="text" max-length="2048">
+                        <span class="fa fa-search searchicon" aria-hidden="true "></span>
                     </label>
 
                     <label for="search-button">
@@ -52,18 +54,18 @@
         <footer>
             <p class="country">Nigeria</p>
             <div class="footer-container">
-            <div class="left-foot-div ">
+            <div class="left-foot-div">
                 <ul>
-                <li>Advertising</li>
-                <li>Business</li>
-                <li>How Search works</li>
+               <a> <li>Advertising</li></a>
+                <a><li>Business</li></a>
+                <a><li>How Search works</li></a>
                 </ul>
             </div>
             <div class="right-foot-div">
                 <ul>
-                <li>Privacy</li>
-                <li>Terms</li>
-                <li>Settings</li>
+                <a><li>Privacy</li></a>
+                <a><li>Terms</li></a>
+                <a><li>Settings</li></a>
                 </ul>
             </div>
             </div>
